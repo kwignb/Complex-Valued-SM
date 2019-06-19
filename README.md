@@ -1,5 +1,5 @@
 # Complex-Valued Subspace Method
-入力を複素数としたときにどのような効果が得られ，また精度が上昇するか，下降するかを確認するために弊研究室で多く取り組まれている部分空間法について複素数対応の実装を行った．
+入力を複素数としたときにどのような効果が得られ，また精度が上昇するか，下降するかを確認するために弊研究室でよく取り組まれている部分空間法について複素数対応の実装を行った．
 
 ## 実装したもの　
 - 複素相互部分空間法 (Complex-Valued Mutual Subspace Method)
@@ -21,6 +21,10 @@
   
 - cos類似度は複素空間における内積の定義を用いる
 
-## Dataset
-- ETH-80
-- CIFAR10
+## データセット
+- ETH-80 (<https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/object-recognition-and-scene-understanding/analyzing-appearance-and-contour-based-methods-for-object-categorization/>)
+- CIFAR10 (<https://www.cs.toronto.edu/~kriz/cifar.html>)
+
+## 参考文献
+- 福井和広, “部分空間法と識別器”, 第13回画像センシングシンポジウム, 2007.
+- 福井和広, “最近の技術動向：相互部分空間法への拡張とその応用事例”, 情報処理学会, Vol.49, No.6, June 2008.
