@@ -15,6 +15,10 @@
     - ヒルベルト変換 (Hilbert Transformation)
     - 正規分布から生成した値を係数とする虚数を足す
     
+- 分散共分散行列は共役転置により生成する
+<div style="text-align: center;">
+<img src="https://latex.codecogs.com/gif.latex?E[(Z-\bm{{\mu}})(Z-\bm{{\mu}})^{*}]" />
+</div>
 - 入力が複素数になることによって分散共分散行列が対称行列ではなくエルミート行列になる
   - 固有値問題を解くとき，エルミート行列は得られる固有値は実数
   - 固有ベクトルは複素ベクトル
