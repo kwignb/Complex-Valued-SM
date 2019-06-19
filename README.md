@@ -22,8 +22,8 @@
 - cos類似度は複素空間における内積の定義を用いる
 
 ## データセット
-- ETH-80 (<https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/object-recognition-and-scene-understanding/analyzing-appearance-and-contour-based-methods-for-object-categorization/>)
-- CIFAR10 (<https://www.cs.toronto.edu/~kriz/cifar.html>)
+- [ETH-80](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/object-recognition-and-scene-understanding/analyzing-appearance-and-contour-based-methods-for-object-categorization/)
+- [CIFAR10](https://www.cs.toronto.edu/~kriz/cifar.html)
 
 ## 参考文献
 - 福井和広, “部分空間法と識別器”, 第13回画像センシングシンポジウム, 2007.
