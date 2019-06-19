@@ -8,7 +8,7 @@
 - 複素カーネル相互部分空間法 (Complex-Valued Kernel Mutual Subspace Method) \
 カーネルの複素数対応が面倒そう？
 
-# 変更点
+## 変更点
 - 入力を実数ではなく複素数にする
   - 変換方法は様々で特に決まってはいない
     - フーリエ変換 (Fourier Transformation)
@@ -20,4 +20,3 @@
   - 固有ベクトルは複素ベクトル
   
 - cos類似度は複素空間における内積の定義を用いる
-  - $$\boldsymbol{a}$$
