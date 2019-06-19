@@ -16,14 +16,14 @@
     - 正規分布から生成した値を係数とする虚数を足す
     
 - 分散共分散行列は共役転置により生成する
-<div style="text-align: center;">
-<img src="https://latex.codecogs.com/gif.latex?E[(Z-\bm{{\mu}})(Z-\bm{{\mu}})^{*}]" />
-</div>
+  - <img src="https://latex.codecogs.com/gif.latex?E[(Z-\bm{{\mu}})(Z-\bm{{\mu}})^{*}]" />
+
 - 入力が複素数になることによって分散共分散行列が対称行列ではなくエルミート行列になる
   - 固有値問題を解くとき，エルミート行列は得られる固有値は実数
   - 固有ベクトルは複素ベクトル
   
-- cos類似度は複素空間における内積の定義を用いる
+- cos類似度は複素空間における内積の定義，すなわちエルミート内積を用いる
+  - <img src="https://latex.codecogs.com/gif.latex?\langle\boldsymbol{x},\boldsymbol{y}\rangle&space;:=&space;\bar{\boldsymbol{x}}^{\mathrm{T}}\boldsymbol{y}&space;=&space;\sum_{i=1}^n&space;\bar{x_{i}}y_i"/>
 
 ## データセット
 - [ETH-80](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/object-recognition-and-scene-understanding/analyzing-appearance-and-contour-based-methods-for-object-categorization/)
